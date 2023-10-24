@@ -12,6 +12,5 @@ jobs:
   - script: |
       git config  --global user.email "harik@systechusa.com"
       git config  --global user.name "Hariprasad29kc"
-      git remote add azure-devops https://harik0533@dev.azure.com/harik0533/CI_CD_DF/_git/CI_CD_DF
       git push --set-upstream origin HEAD:refs/head/main --force
     displayName: 'Sync to Azure DevOps'
