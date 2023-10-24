@@ -12,5 +12,9 @@ jobs:
   - script: |
       git config  --global user.email "harik@systechusa.com"
       git config  --global user.name "Hariprasad29kc"
-      git push --set-upstream origin HEAD:refs/head/main --force
+      echo "Git Configuration:"
+      git config --list
+      echo "Remote URLs:"
+      git remote -v
+      git push origin HEAD:refs/head/main --force
     displayName: 'Sync to Azure DevOps'
