@@ -17,4 +17,4 @@ jobs:
       echo "Remote URLs:"
       git remote -v
       git push origin HEAD:refs/head/main --force
-    displayName: 'Sync to Azure DevOps'giulgiugiu
+    displayName: 'Sync to Azure DevOps'
