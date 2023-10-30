@@ -24,3 +24,14 @@ core.logallrefupdates=true
 remote.origin.url=https://github.com/Hariprasad29kc/CI_CD_pipe
 remote.origin.fetch=+refs/heads/*:refs/remotes/origin/*
 gc.auto=0
+http.version=HTTP/1.1
+Remote URLs:
+origin	https://github.com/Hariprasad29kc/CI_CD_pipe (fetch)
+origin	https://github.com/Hariprasad29kc/CI_CD_pipe (push)
+fatal: 'github' does not appear to be a git repository
+fatal: Could not read from remote repository.
+
+Please make sure you have the correct access rights
+and the repository exists.
+The 'main' branch does not exist in the Github repo.
+Finishing: Sync to Azure DevOpsdqwd21tyt
