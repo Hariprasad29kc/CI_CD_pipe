@@ -18,6 +18,7 @@ jobs:
       git remote -v
       git remote set-url origin https://$GITHUB_PAT@github.com/Hariprasad29kc/CI_CD_pipe
       git fetch github
-      git checkout -b main github/main 
+      git checkout main
+      git reset --hard github/main
       git push origin main
     displayName: 'Sync to Azure DevOpsdqwd21tyt'
