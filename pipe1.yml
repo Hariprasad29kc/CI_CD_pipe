@@ -1,3 +1,26 @@
-
-Encountered error(s) while parsing pipeline YAML:
-/azure-pipelines.yml: (Line: 27, Col: 5, Idx: 685) - (Line: 27, Col: 5, Idx: 685): While scanning a simple key, could not find expected ':'.
+Starting: Sync to Azure DevOpsdqwd21tyt
+==============================================================================
+Task         : Command line
+Description  : Run a command line script using Bash on Linux and macOS and cmd.exe on Windows
+Version      : 2.229.0
+Author       : Microsoft Corporation
+Help         : https://docs.microsoft.com/azure/devops/pipelines/tasks/utility/command-line
+==============================================================================
+Generating script.
+========================== Starting Command Output ===========================
+/usr/bin/bash --noprofile --norc /home/vsts/work/_temp/2d969444-f0ae-423a-8664-5bb5456b7b02.sh
+Git Configuration:
+safe.directory=*
+filter.lfs.smudge=git-lfs smudge -- %f
+filter.lfs.process=git-lfs filter-process
+filter.lfs.required=true
+filter.lfs.clean=git-lfs clean -- %f
+user.email=harik@systechusa.com
+user.name=Hariprasad29kc
+core.repositoryformatversion=0
+core.filemode=true
+core.bare=false
+core.logallrefupdates=true
+remote.origin.url=https://github.com/Hariprasad29kc/CI_CD_pipe
+remote.origin.fetch=+refs/heads/*:refs/remotes/origin/*
+gc.auto=0
