@@ -8,7 +8,7 @@ Help         : https://docs.microsoft.com/azure/devops/pipelines/tasks/utility/c
 ==============================================================================
 Generating script.
 ========================== Starting Command Output ===========================
-/usr/bin/bash --noprofile --norc /home/vsts/work/_temp/83a3e260-5d0f-47f7-a203-832db6830d2d.sh
+/usr/bin/bash --noprofile --norc /home/vsts/work/_temp/d20131f4-7c92-4806-ae12-a3605c37cd35.sh
 Git Configuration:
 safe.directory=*
 filter.lfs.smudge=git-lfs smudge -- %f
@@ -28,12 +28,10 @@ http.version=HTTP/1.1
 Remote URLs:
 origin	https://github.com/Hariprasad29kc/CI_CD_pipe (fetch)
 origin	https://github.com/Hariprasad29kc/CI_CD_pipe (push)
-From https://github.com/Hariprasad29kc/CI_CD_pipe
- * [new branch]      main       -> github/main
-db2ca7ba7388f174595245d85ddb044cdf655aa1
-Switched to a new branch 'main'
-branch 'main' set up to track 'github/main'.
-HEAD is now at db2ca7b Update azure-pipelines.yml for Azure Pipelines
-fatal: could not read Username for 'https://github.com': terminal prompts disabled
-##[error]Bash exited with code '128'.
+fatal: 'github' does not appear to be a git repository
+fatal: Could not read from remote repository.
+
+Please make sure you have the correct access rights
+and the repository exists.
+The 'main' branch does not exist in the Github repo.
 Finishing: Sync to Azure DevOpsdqwd21tyt
