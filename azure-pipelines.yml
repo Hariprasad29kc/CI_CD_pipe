@@ -22,7 +22,7 @@ jobs:
       if git rev-parse --verify --quiet github/main; then
         git checkout main
         git reset --hard github/main
-        git push --force origin main
+        git push --set-upstream origin HEAD:refs/head/main --force
       else
         echo "The 'main' branch does not exist in the Github repo."
       fi 
