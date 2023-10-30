@@ -1,5 +1,14 @@
+Starting: Sync to Azure DevOpsdqwd21tyt
+==============================================================================
+Task         : Command line
+Description  : Run a command line script using Bash on Linux and macOS and cmd.exe on Windows
+Version      : 2.229.0
+Author       : Microsoft Corporation
+Help         : https://docs.microsoft.com/azure/devops/pipelines/tasks/utility/command-line
+==============================================================================
+Generating script.
 ========================== Starting Command Output ===========================
-/usr/bin/bash --noprofile --norc /home/vsts/work/_temp/24b46774-e036-472f-8250-e150431c117b.sh
+/usr/bin/bash --noprofile --norc /home/vsts/work/_temp/c5ca2ec1-931e-4339-8897-311efb192abe.sh
 Git Configuration:
 safe.directory=*
 filter.lfs.smudge=git-lfs smudge -- %f
@@ -15,11 +24,3 @@ core.logallrefupdates=true
 remote.origin.url=https://github.com/Hariprasad29kc/CI_CD_pipe
 remote.origin.fetch=+refs/heads/*:refs/remotes/origin/*
 gc.auto=0
-http.version=HTTP/1.1
-Remote URLs:
-origin	https://github.com/Hariprasad29kc/CI_CD_pipe (fetch)
-origin	https://github.com/Hariprasad29kc/CI_CD_pipe (push)
-fatal: could not read Username for 'https://github.com': terminal prompts disabled
-##[error]Bash exited with code '128'.
-Finishing: Sync to Azure DevOpsdqwd21tyt
-
