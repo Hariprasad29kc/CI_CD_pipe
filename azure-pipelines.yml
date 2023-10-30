@@ -16,10 +16,6 @@ jobs:
       git config --list
       echo "Remote URLs:"
       git remote -v
-
-
-      git remote set-url origin https://github.com/Hariprasad29kc/CI_CD_pipe.git
-      git fetch --unshallow
-      git pull origin main --rebase
+      git remote set-url origin https://$GITHUB_PAT@github.com/Hariprasad29kc/CI_CD_pipe
       git push origin HEAD:refs/head/main --force
     displayName: 'Sync to Azure DevOpsdqwd21tyt'
