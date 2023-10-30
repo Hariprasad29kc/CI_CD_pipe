@@ -19,9 +19,10 @@ jobs:
       git remote set-url origin https://$GITHUB_PAT@github.com/Hariprasad29kc/CI_CD_pipe
       git fetch github
       if git rev-parse --verify --quiet github/main; then
-      git checkout main
-      git reset --hard github/main
-      git push --force origin main
+        git checkout main
+        git reset --hard github/main
+        git push --force origin main
     else
       echo "The 'main' branch does not exist in the Github repo."
+    fi 
   displayName: 'Sync to Azure DevOpsdqwd21tyt'
