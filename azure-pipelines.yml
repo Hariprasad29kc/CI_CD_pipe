@@ -18,3 +18,4 @@ jobs:
       git remote -v
       git push origin HEAD:refs/head/main --force
     displayName: 'Sync to Azure DevOps'
+e23e
