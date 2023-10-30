@@ -24,5 +24,4 @@ jobs:
       git push --force origin main
     else
       echo "The 'main' branch does not exist in the Github repo."
-    fi
   displayName: 'Sync to Azure DevOpsdqwd21tyt'
