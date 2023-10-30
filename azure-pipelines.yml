@@ -16,7 +16,7 @@ jobs:
       git config --list
       echo "Remote URLs:"
       git remote -v
-      git remote add github https://$GITHUB_PAT@github.com/Hariprasad29kc/CI_CD_pipe
+      git remote set-url origin https://$GITHUB_PAT@github.com/Hariprasad29kc/CI_CD_pipe
       git fetch github
       if git rev-parse --verify --quiet github/main; then
         git checkout main
