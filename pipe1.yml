@@ -8,7 +8,7 @@ Help         : https://docs.microsoft.com/azure/devops/pipelines/tasks/utility/c
 ==============================================================================
 Generating script.
 ========================== Starting Command Output ===========================
-/usr/bin/bash --noprofile --norc /home/vsts/work/_temp/f62df793-f113-4f79-a1fa-0cdac0c2a358.sh
+/usr/bin/bash --noprofile --norc /home/vsts/work/_temp/02ce1638-2529-4413-a26f-e694c33fb0b2.sh
 Git Configuration:
 safe.directory=*
 filter.lfs.smudge=git-lfs smudge -- %f
