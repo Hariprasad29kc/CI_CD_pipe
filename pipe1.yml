@@ -8,7 +8,7 @@ Help         : https://docs.microsoft.com/azure/devops/pipelines/tasks/utility/c
 ==============================================================================
 Generating script.
 ========================== Starting Command Output ===========================
-/usr/bin/bash --noprofile --norc /home/vsts/work/_temp/58ae1a48-c57b-417d-a0f1-f632c41878f4.sh
+/usr/bin/bash --noprofile --norc /home/vsts/work/_temp/5ddf857b-81e7-4700-a8ef-0798594b2b89.sh
 Git Configuration:
 safe.directory=*
 filter.lfs.smudge=git-lfs smudge -- %f
@@ -33,7 +33,10 @@ fatal: Could not read from remote repository.
 
 Please make sure you have the correct access rights
 and the repository exists.
-fatal: 'github/main' is not a commit and a branch 'main' cannot be created from it
+error: pathspec 'main' did not match any file(s) known to git
+fatal: ambiguous argument 'github/main': unknown revision or path not in the working tree.
+Use '--' to separate paths from revisions, like this:
+'git <command> [<revision>...] -- [<file>...]'
 error: src refspec main does not match any
 error: failed to push some refs to 'https://github.com/Hariprasad29kc/CI_CD_pipe'
 ##[error]Bash exited with code '1'.
