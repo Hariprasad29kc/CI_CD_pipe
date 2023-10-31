@@ -15,9 +15,9 @@ jobs:
 
       - name: Push to Azure DevOps
         run: |
-          git config --global user.email "your-email@example.com"
-          git config --global user.name "Your Name"
-          git remote add azure-devops <Azure DevOps Repo URL>
+          git config --global user.email "harik@systechusa.com"
+          git config --global user.name "Hariprasad29kc"
+          git remote add azure-devops https://harik0533@dev.azure.com/harik0533/CI_CD_DF/_git/CI_CD_DF
           git push azure-devops main:main  # Change branch names as needed
         env:
           AZURE_DEVOPS_PAT: ${{ secrets.AZURE_DEVOPS_PAT }}
