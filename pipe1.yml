@@ -8,10 +8,9 @@ Help         : https://docs.microsoft.com/azure/devops/pipelines/tasks/utility/c
 ==============================================================================
 Generating script.
 ========================== Starting Command Output ===========================
-/usr/bin/bash --noprofile --norc /home/vsts/work/_temp/8585bce1-8d15-42e7-a2ff-1854b0d7951c.sh
+/usr/bin/bash --noprofile --norc /home/vsts/work/_temp/0f9f0e2a-f247-4b17-806c-3d722b9792b0.sh
 Cloning into 'CI_CD_pipe'...
-/home/vsts/work/_temp/8585bce1-8d15-42e7-a2ff-1854b0d7951c.sh: line 4: cd: yourgithubrepo: No such file or directory
-fatal: could not read Password for 'https://harik0533@dev.azure.com': terminal prompts disabled
-fatal: could not read Password for 'https://harik0533@dev.azure.com': terminal prompts disabled
+fatal: could not read Password for 'https://PAT@dev.azure.com': terminal prompts disabled
+fatal: could not read Password for 'https://PAT@dev.azure.com': terminal prompts disabled
 ##[error]Bash exited with code '128'.
 Finishing: Mirror Code to Azure DevOps
