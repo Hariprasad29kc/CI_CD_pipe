@@ -16,29 +16,3 @@ steps:
     git push azure-devops --all
     git push azure-devops --tags
   displayName: 'Mirror Code to Azure DevOps'
-
-
-
-name: Azure DevOps Sync
-
-on:
-  push:
-    branches:
-      - main  # Change this to your main branch
-
-jobs:
-  sync:
-    runs-on: ubuntu-latest
-
-    steps:
-      - name: Check out code
-        uses: actions/checkout@v2
-
-      - name: Push to Azure DevOps
-        run: |
-          git config --global user.email "harik@systechusa.com"
-          git config --global user.name "Hariprasad29kc"
-          git remote add azure-devops https://harik0533@dev.azure.com/harik0533/CI_CD_DF/_git/CI_CD_DF
-          git push azure-devops main:main  # Change branch names as needed
-        env:
-          AZURE_DEVOPS_PAT: ${{ secrets.AZURE_DEVOPS_PAT }}
