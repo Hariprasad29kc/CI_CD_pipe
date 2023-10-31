@@ -28,4 +28,4 @@ jobs:
       fi 
     env:
       GITHUB_PAT: $(GITHUB_PAT)
-    displayName: 'Sync to Azure DevOpsdqwd21tyt'
+    displayName: 'Sync to Azure DevOpsdqwd21tyt342342'
