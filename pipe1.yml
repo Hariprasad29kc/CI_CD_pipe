@@ -8,9 +8,15 @@ Help         : https://docs.microsoft.com/azure/devops/pipelines/tasks/utility/c
 ==============================================================================
 Generating script.
 ========================== Starting Command Output ===========================
-/usr/bin/bash --noprofile --norc /home/vsts/work/_temp/0f9f0e2a-f247-4b17-806c-3d722b9792b0.sh
+/usr/bin/bash --noprofile --norc /home/vsts/work/_temp/65320a41-fafc-43da-9f1d-2faf2a353b78.sh
 Cloning into 'CI_CD_pipe'...
-fatal: could not read Password for 'https://PAT@dev.azure.com': terminal prompts disabled
-fatal: could not read Password for 'https://PAT@dev.azure.com': terminal prompts disabled
-##[error]Bash exited with code '128'.
+To https://dev.azure.com/harik0533/CI_CD_DF/_git/CI_CD_DF
+ ! [rejected]        main -> main (fetch first)
+error: failed to push some refs to 'https://dev.azure.com/harik0533/CI_CD_DF/_git/CI_CD_DF'
+hint: Updates were rejected because the remote contains work that you do not
+hint: have locally. This is usually caused by another repository pushing to
+hint: the same ref. If you want to integrate the remote changes, use
+hint: 'git pull' before pushing again.
+hint: See the 'Note about fast-forwards' in 'git push --help' for details.
+Everything up-to-date
 Finishing: Mirror Code to Azure DevOps
