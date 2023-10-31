@@ -16,4 +16,4 @@ steps:
     git pull azure-devops main 
     git push azure-devops --all
     git push azure-devops --tags
-  displayName: 'Mirror Code to Azure DevOps'
+  displayName: 'Mirror Code to Azure DevOprterts'
