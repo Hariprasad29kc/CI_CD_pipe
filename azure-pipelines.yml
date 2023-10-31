@@ -1,31 +1,23 @@
-trigger:
-- main
+name: Azure DevOps Sync
 
-pool:
-  vmImage: 'ubuntu-latest'
+on:
+  push:
+    branches:
+      - main  # Change this to your main branch
 
 jobs:
-- job: SyncToAzureDevOps
-  steps:
-  - checkout: self
+  sync:
+    runs-on: ubuntu-latest
 
-  - script: |
-      git config  --global user.email "harik@systechusa.com"
-      git config  --global user.name "Hariprasad29kc"
-      echo "Git Configuration:"
-      git config --list
-      echo "Remote URLs:"
-      git remote -v
-      git remote set-url origin https://github.com/Hariprasad29kc/CI_CD_pipe.git
-      git fetch origin
+    steps:
+      - name: Check out code
+        uses: actions/checkout@v2
 
-      if git rev-parse --verify --quiet "origin/$branch_name"; then
-        git checkout $branch_name
-        git reset --hard "origin/$branch_name"
-        git push --force origin $branch_name
-      else
-        echo "The '$branch_name' branch does not exist in the Github repo."
-      fi 
-    env:
-      GITHUB_PAT: $(GITHUB_PAT)
-    displayName: 'Sync to Azure DevOpsdqwd21tyt342342'
+      - name: Push to Azure DevOps
+        run: |
+          git config --global user.email "your-email@example.com"
+          git config --global user.name "Your Name"
+          git remote add azure-devops <Azure DevOps Repo URL>
+          git push azure-devops main:main  # Change branch names as needed
+        env:
+          AZURE_DEVOPS_PAT: ${{ secrets.AZURE_DEVOPS_PAT }}
