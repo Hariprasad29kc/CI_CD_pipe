@@ -16,7 +16,7 @@ jobs:
       git config --list
       echo "Remote URLs:"
       git remote -v
-      git remote set-url origin https://$GITHUB_PAT@github.com/Hariprasad29kc/CI_CD_pipe
+      git remote set-url origin https://github.com/Hariprasad29kc/CI_CD_pipe.git
       git fetch origin
 
       if git rev-parse --verify --quiet "origin/$branch_name"; then
