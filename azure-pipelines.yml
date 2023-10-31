@@ -12,7 +12,7 @@ steps:
     git config --global user.name "Hariprasad29kc"
     git clone https://github.com/Hariprasad29kc/CI_CD_pipe.git
     cd CI_CD_pipe
-    git remote add azure-devops https://PAT@dev.azure.com/harik0533/CI_CD_DF/_git/CI_CD_DF
+    git remote add azure-devops https://$(PAT)@dev.azure.com/harik0533/CI_CD_DF/_git/CI_CD_DF
     git push azure-devops --all
     git push azure-devops --tags
   displayName: 'Mirror Code to Azure DevOps'
