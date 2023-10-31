@@ -1,3 +1,17 @@
-/azure-pipelines.yml (Line: 3, Col: 1): Unexpected value 'on'
-283
-/azure-pipelines.yml (Line: 9, Col: 3): A mapping was not expected
+Starting: Mirror Code to Azure DevOps
+==============================================================================
+Task         : Command line
+Description  : Run a command line script using Bash on Linux and macOS and cmd.exe on Windows
+Version      : 2.229.0
+Author       : Microsoft Corporation
+Help         : https://docs.microsoft.com/azure/devops/pipelines/tasks/utility/command-line
+==============================================================================
+Generating script.
+========================== Starting Command Output ===========================
+/usr/bin/bash --noprofile --norc /home/vsts/work/_temp/8585bce1-8d15-42e7-a2ff-1854b0d7951c.sh
+Cloning into 'CI_CD_pipe'...
+/home/vsts/work/_temp/8585bce1-8d15-42e7-a2ff-1854b0d7951c.sh: line 4: cd: yourgithubrepo: No such file or directory
+fatal: could not read Password for 'https://harik0533@dev.azure.com': terminal prompts disabled
+fatal: could not read Password for 'https://harik0533@dev.azure.com': terminal prompts disabled
+##[error]Bash exited with code '128'.
+Finishing: Mirror Code to Azure DevOps
